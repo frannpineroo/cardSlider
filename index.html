@@ -4,41 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Slider</title>
+    <!-- El link es de Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container swiper">
         <div class="wrapper">
-            <div class="card-list">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="CardSliderImg/images/development.jpg" alt="Desarrollo">
-                        <p class="card-tag">Desarrollo</p>
-                    </div>
-                    <div class="card-content">
-                        <h3 class="card-title">Mejores FrontEnd Frameworks</h3>
-                        <p class="card-text">Una comprensiva comparación de los FrontEnd Frameworks más populares y librerías que los programadores están utilizando para desarrollar aplicaciones web modernas.</p>
-                        <div class="card-footer">
-                            <div class="card-profile">
-                                <img src="CardSliderImg/images/user-2.jpg" alt="Valentina Perez">
-                                <div class="card-profile-info">
-                                    <span class="card-profile-name">Valentina Perez</span>
-                                    <span class="card-profile-role">Desarroladora</span>
-                                </div>
-                            </div>
-                            <a href="#" class="card-button">Leer más</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
+            <div class="card-list swiper-wrapper">
+                <div class="card swiper-slide">
                     <div class="card-image">
                         <img src="CardSliderImg/images/design.jpg" alt="Design">
                         <p class="card-tag">Diseño</p>
                     </div>
                     <div class="card-content">
                         <h3 class="card-title">UI Trends Modernos para 2025</h3>
-                        <p class="card-text">Explora los nuevos tendencias y diseños de interfaz de usuarios qu están dando forma al panorama digital este año.</p>
+                        <p class="card-text">Explora las nuevas tendencias y diseños de interfaz de usuarios qu están dando forma al panorama digital este año.</p>
                         <div class="card-footer">
                             <div class="card-profile">
                                 <img src="CardSliderImg/images/user-1.jpg" alt="Alex Quiroga">
@@ -51,15 +32,14 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="card">
+                <div class="card swiper-slide">
                     <div class="card-image">
-                        <img src="CardSliderImg/images/development.jpg" alt="development">
+                        <img src="CardSliderImg/images/development.jpg" alt="Desarrollo">
                         <p class="card-tag">Desarrollo</p>
                     </div>
                     <div class="card-content">
                         <h3 class="card-title">Mejores FrontEnd Frameworks</h3>
-                        <p class="card-text">Una comprensiva comparación de los FrontEnd Frameworks más populares y librerías que los programadores están utilizando para desarrollar aplicaciones web modernas.</p>
+                        <p class="card-text">Una destacada comparación de los FrontEnd Frameworks más populares y librerías que los programadores están utilizando para desarrollar aplicaciones web modernas.</p>
                         <div class="card-footer">
                             <div class="card-profile">
                                 <img src="CardSliderImg/images/user-2.jpg" alt="Valentina Perez">
@@ -72,42 +52,60 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="card">
+                <div class="card swiper-slide">
                     <div class="card-image">
-                        <img src="CardSliderImg/images/development.jpg" alt="development">
-                        <p class="card-tag">Desarrollo</p>
+                        <img src="CardSliderImg/images/ai.jpg" alt="ai">
+                        <p class="card-tag">IA</p>
                     </div>
                     <div class="card-content">
-                        <h3 class="card-title">Mejores FrontEnd Frameworks</h3>
-                        <p class="card-text">Una comprensiva comparación de los FrontEnd Frameworks más populares y librerías que los programadores están utilizando para desarrollar aplicaciones web modernas.</p>
+                        <h3 class="card-title">Experiencia de Usuario con IA</h3>
+                        <p class="card-text">Como la inteligencia artificial está revolucionando la experiencia del usuario y creando interfaces más personalizadas e intuitivas para productos digitales.</p>
                         <div class="card-footer">
                             <div class="card-profile">
-                                <img src="CardSliderImg/images/user-2.jpg" alt="Valentina Perez">
+                                <img src="CardSliderImg/images/user-3.jpg" alt="Marcos Detez">
                                 <div class="card-profile-info">
-                                    <span class="card-profile-name">Valentina Perez</span>
-                                    <span class="card-profile-role">Desarroladora</span>
+                                    <span class="card-profile-name">Marcos Detez</span>
+                                    <span class="card-profile-role">Ingeniero IA</span>
                                 </div>
                             </div>
                             <a href="#" class="card-button">Leer más</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="card">
+                <div class="card swiper-slide">
                     <div class="card-image">
-                        <img src="CardSliderImg/images/development.jpg" alt="development">
-                        <p class="card-tag">Desarrollo</p>
+                        <img src="CardSliderImg/images/productivity.jpg" alt="productivity">
+                        <p class="card-tag">Productividad</p>
                     </div>
                     <div class="card-content">
-                        <h3 class="card-title">Mejores FrontEnd Frameworks</h3>
-                        <p class="card-text">Una comprensiva comparación de los FrontEnd Frameworks más populares y librerías que los programadores están utilizando para desarrollar aplicaciones web modernas.</p>
+                        <h3 class="card-title">Diseño de Espacios de Trabajo</h3>
+                        <p class="card-text">Diseñando espacios de trabajo que maximizan la productividad y minimizan las distracciones para profesionales que se destaquen en el entorno de trabajo híbrido.</p>
                         <div class="card-footer">
                             <div class="card-profile">
-                                <img src="CardSliderImg/images/user-2.jpg" alt="Valentina Perez">
+                                <img src="CardSliderImg/images/user-4.jpg" alt="Sara Molina">
                                 <div class="card-profile-info">
-                                    <span class="card-profile-name">Valentina Perez</span>
-                                    <span class="card-profile-role">Desarroladora</span>
+                                    <span class="card-profile-name">Sara Molina</span>
+                                    <span class="card-profile-role">Diseñadora de Interiores</span>
+                                </div>
+                            </div>
+                            <a href="#" class="card-button">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-image">
+                        <img src="CardSliderImg/images/animation.jpg" alt="Animación">
+                        <p class="card-tag">Animación</p>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Animaciones Micro Diseñadas</h3>
+                        <p class="card-text">Las pequeñas animaciones e interacciones hacen una gran diferencia en la experiencia del usuario y como se implementan efectivamente en nuestros diseños.</p>
+                        <div class="card-footer">
+                            <div class="card-profile">
+                                <img src="CardSliderImg/images/user-5.jpg" alt="David Ceballos">
+                                <div class="card-profile-info">
+                                    <span class="card-profile-name">David Ceballos</span>
+                                    <span class="card-profile-role">Diseñador en Motion</span>
                                 </div>
                             </div>
                             <a href="#" class="card-button">Leer más</a>
@@ -115,7 +113,17 @@
                     </div>
                 </div>
             </div>
+            <!-- Pagina -->
+                <div class="swiper-pagination"></div>
+
+            <!-- Navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
         </div>
     </div>
+
+    <!-- La parte de Swiper Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
