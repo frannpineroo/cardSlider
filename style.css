@@ -1,0 +1,55 @@
+/* Importado desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#efefff, #cccbff);
+}
+
+.wrapper .card{
+    width: 350px;
+    height: auto;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card .card-image img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 22px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.card .card-image{
+    position: relative;
+}
+
+.card .card-image .card-tag{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 5px 15px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.card .card-profile img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
